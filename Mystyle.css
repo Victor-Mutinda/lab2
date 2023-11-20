@@ -1,8 +1,16 @@
  body{ 
 	padding-left:11em;
 	font-family:"Trebuchet MS", Verdana, Arial, serif;;
-	color:rgb(144, 68, 68);
-	background-color:rgba(74, 198, 200, 0.865);}
+	color:rgb(37, 29, 29);
+	background: hsla(184, 47%, 26%, 1);
+
+	background: linear-gradient(90deg, hsla(184, 47%, 26%, 1) 0%, hsla(240, 46%, 76%, 1) 49%, hsla(319, 72%, 75%, 1) 100%);
+
+	background: -moz-linear-gradient(90deg, hsla(184, 47%, 26%, 1) 0%, hsla(240, 46%, 76%, 1) 49%, hsla(319, 72%, 75%, 1) 100%);
+
+	background: -webkit-linear-gradient(90deg, hsla(184, 47%, 26%, 1) 0%, hsla(240, 46%, 76%, 1) 49%, hsla(319, 72%, 75%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#235C60", endColorstr="#A6A6DE", GradientType=1 );}
   UL.navbar{
 	list-Style-type:none;
 	padding:0;
@@ -16,10 +24,10 @@
   h1,h2,h3{
 	font-family:Helvetica,Geneva,Arial,Sunsans-Regular,sans-serif;}
   UL.navbar li{
-		background:orange;
+		background:whitesmoke;
 		margin:0.5em0;
 		padding:0.5em;
-		border-right:1em solid black
+		border-right:1em solid rgba(90, 76, 76, 0.582)
 		}
   UL.navbar a{
 		text-decoration:none}
